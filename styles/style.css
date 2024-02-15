@@ -13,37 +13,42 @@
     src: url('/styles/Norse-Bold.otf');
 }
 
-body{
-    min-height: 100vh;
+main {
     display: flex;
+    min-height: 100vh;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+
 }
 
 .hero-image{
     background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
     background-color: #25433C;
     background-size: cover;
+    flex: 2 1 auto;
 }
 
 .banner {
     padding: 1rem 5rem;
-    margin-top: 12rem;
+    margin-top: 10rem;
     gap: 1rem;
     align-items: center;
     background-color: rgba(18, 17, 17, 0.6);
     display: flex;
     justify-content: center;
-
 }
 
 .banner img {
-    max-width: 6rem;
+    max-width: 4rem;
 }
 
 .banner > h1{
     font-family: 'Norse Bold', Arial, Helvetica, sans-serif;
-    font-size: 6rem;
+    font-size: 4rem;
     color: white;
+}
+
+div.sign-up {
+    flex: 2 1 auto;
 }
 
 label{
@@ -70,8 +75,8 @@ form > h2 {
 
 form {
     box-shadow: 5px 5px 5px 5px #E5E7EB;
-    padding: 2rem;
-    margin: 3rem 6rem;
+    padding: 2rem 7rem;
+    margin: 0;
 }
 
 input{
