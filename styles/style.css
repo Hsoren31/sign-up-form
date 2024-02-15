@@ -1,3 +1,4 @@
+/* Universal */
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -19,7 +20,7 @@ main {
     font-family: Roboto, Arial, Helvetica, sans-serif;
 
 }
-
+/*Hero Image*/
 .hero-image{
     background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
     background-color: #25433C;
@@ -46,18 +47,21 @@ main {
     font-size: 4rem;
     color: white;
 }
-
+/*Sign up Section*/
 div.sign-up {
     flex: 2 1 auto;
 }
 
-label{
-    letter-spacing: 0.2ch;
+/*Form*/
+form {
+    box-shadow: 5px 5px 5px 5px #E5E7EB;
+    padding: 2rem;
+    justify-content: center;
 }
 
-input, label {
-    display: block;
-    margin: 0.4rem;
+form > h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 form > div.form_row {
@@ -68,15 +72,13 @@ form > div.form_row {
     margin-left: 1rem;
 }
 
-form > h2 {
-    font-weight: bold;
-    font-size: 1.5rem;
+input, label {
+    display: block;
+    margin: 0.4rem;
 }
 
-form {
-    box-shadow: 5px 5px 5px 5px #E5E7EB;
-    padding: 2rem 7rem;
-    margin: 0;
+label{
+    letter-spacing: 0.2ch;
 }
 
 input{
