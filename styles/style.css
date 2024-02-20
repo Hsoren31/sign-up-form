@@ -100,9 +100,40 @@ input{
     font-size: 1.2rem;
 }
 
+input::placeholder {
+    color: #cfd1d2;
+}
+
 input[type="tel"]:focus-visible,
 input:focus-visible {
     border: none;
     outline: 2px solid rgb(23, 112, 255);
     box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(92, 92, 92, 0.2);
+}
+
+input:invalid:required:after {
+    border-color: rgb(238, 8, 8);
+}
+
+input:valid:after {
+    border-color: rgb(60, 178, 60);
+}
+
+form > button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    color: #f7f9ff;
+    background-color: #596D48;
+    font-weight: 600;
+    font-size: 1.1em;
+    border-radius: 1rem;
+    border-style: none;
+}
+
+p {
+    margin: 2rem;
+}
+
+a {
+    color:#596D48;
 }
